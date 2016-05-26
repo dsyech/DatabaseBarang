@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="MASUKKAN BARANG BARU"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/baruSku"
+        android:layout_gravity="center_horizontal"
+        android:hint="SKU.." />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/baruNama"
+        android:layout_gravity="center_horizontal"
+        android:hint="Nama.." />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/baruStok"
+        android:layout_gravity="center_horizontal"
+        android:hint="Stok..." />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/baruSatuan"
+        android:layout_gravity="center_horizontal"
+        android:hint="Harga Satuan..." />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/baruGambar"
+        android:layout_gravity="center_horizontal"
+        android:hint="Gambar (eg : img1)..." />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIMPAN"
+        android:id="@+id/btnSimpanTambah"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClickBtnSimpanTambah" />
+</LinearLayout>
